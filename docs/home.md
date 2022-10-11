@@ -1,4 +1,4 @@
-# MSOE.DEV | The Rosie User Guide
+# DOCS.HPC.MSOE.EDU | The Rosie User Guide
 
 ![Rosie Supercomputer](_images/ROSIE.jpg)
 
