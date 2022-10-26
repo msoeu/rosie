@@ -2,9 +2,9 @@ Like docker. Virtual containers to easily manage dependencies.
 
 Official Website: https://singularity.lbl.gov/
 
-User Guide: https://sylabs.io/guides/3.3/user-guide/index.html
+User Guide: https://sylabs.io/guides/3.10/user-guide/index.html
 
-**Note:** ROSIE runs Singularity version 3.3
+**Note:** ROSIE runs Singularity version 3.10
 
 Singularity is a platform that enables organized installation and management of custom libraries and code. Singularity creates virtual machiines that can be dispatched across nodes on the cluster, creating homogeneous virtual working environments. 
 
