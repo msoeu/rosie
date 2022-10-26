@@ -20,7 +20,7 @@ $ sbatch script.sh
 
 ### File anatomy
 
-Example sbatch files for Rosie can be found on the msoe.dev github repo [here](https://github.com/gagandaroach/rosie/tree/master/slurm). Below is the example `t4_gpu.sh` sbatch script.
+Example sbatch files for Rosie can be found [here](/slurm). Below is the example `t4_gpu.sh` sbatch script.
 
 ```sh
 #!/bin/bash
