@@ -1,6 +1,6 @@
 ## Deep Learning Toolbox
 
-### Rosie VNC Desktop in local browser (recommended mthod)
+### Rosie VNC Desktop in local browser (recommended method)
 
 1. [Launch interactive desktop on compute node using VNC.](https://dh-ood.hpc.msoe.edu/pun/sys/dashboard/batch_connect/sys/rosie_vnc_desktop/session_contexts/new) Use your username *without* @msoe.edu to log in.
 1. Select 1 GPU and the number of hours you need. Select "Launch."
@@ -39,7 +39,7 @@ These instructions are adapted from [this MathWorks Central post](https://www.ma
 
 1. Go to the [License Center](https://www.mathworks.com/licensecenter/licenses)
 1. Log into (or create) your MathWorks Account with your @msoe.edu address if you are not already logged in
-1. Select your license number from the list. If you don't see your license, use the links in the upper left hand corner to toggle between Licenses, Trials, and Prereleases
+1. Select your license number from the list. If you don't see your license, use the links in the upper left-hand corner to toggle between Licenses, Trials, and Prereleases
 1. Select the "Install and Activate" tab
 1. Click the "Activate to Retrieve License File" link under "Related Tasks" on the right side of the page.
 1. On the page titled "Activated Computers," click the blue "Activate a Computer" button on the right side of the page.
