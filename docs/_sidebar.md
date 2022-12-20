@@ -23,3 +23,4 @@
 
 * [Vscode Remote Development](tips/vscode.md)
 * [Using Linux CLI](tips/linux.md)
+* [MATLAB](tips/matlab.md)
