@@ -1,4 +1,4 @@
-### Python Environments
+# Python Environments
 
 There are a number of common python packages installed in the system
 distribution.  However, you may need to install additional packages
@@ -49,7 +49,7 @@ sysadmin@dh-mgmt2:~$
 The environment can be deactivated when you no longer want to use
 those packages.
 
-# Named `conda` Environments
+### Named `conda` Environments
 
 Above we activated/deactivated the "`base`" conda environment.  As
 with the default packages,users cannot alter this environment.
@@ -152,7 +152,7 @@ Cuda is available? False
 sysadmin@dh-mgmt2:~$ 
 ```
 
-# Conda and Jupyter Notebooks
+### Conda and Jupyter Notebooks
 
 To use your conda envornment in a Jupyter notebook, you will need to
 compile a kernel for that environment
