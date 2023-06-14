@@ -2,7 +2,7 @@
 
 The `batch` function runs a job
 remotely on Rosie from within your local copy of Matlab.  Before doing this,
-you must [configure MatLab](batch_config.md) appropriately.
+you must [configure MatLab](matlab/batch_config.md) appropriately.
 
 The general recipe for this is to
 

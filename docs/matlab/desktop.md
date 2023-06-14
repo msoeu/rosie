@@ -16,10 +16,10 @@ There are three methods to run a MATLAB desktop on Rosie:
 1. Select 1 GPU and the number of hours you need. Select "Launch."
 1. It may take a minute to prepare your session. Select "Launch Rosie VNC Desktop" when given the option.
 1. Open a terminal window on the remote desktop. You can do this by clicking the footprint icon in the upper left and searching for "term." Select "MATE Terminal."
-1. If you are manually activating the license, [get the license file](intro?id=manual-license-file) now.
+1. If you are manually activating the license, [get the license file](matlab/intro?id=manual-license-file) now.
 1. `singularity exec --nv /data/containers/matlab-r2022a.sif bash`
 1. `matlab&`
-   * If you receive an error that the license for a different computer is installed, [run the license activation script](intro.md?id=matlab-licensing)
+   * If you receive an error that the license for a different computer is installed, [run the license activation script](matlab/intro.md?id=matlab-licensing)
    * `matlab&`
 
 ### Alternate method (X11 forwarding)

@@ -4,10 +4,10 @@ MATLAB is a commonly used platform for numeric computing and simple
 programming. Currently, Rosie has MATLAB r2022a installed.  MATLAB
 jobs can be run in different ways on the cluster.
 
-* A job can be run using the [MATLAB desktop](desktop.md), generally
+* A job can be run using the [MATLAB desktop](matlab/desktop.md), generally
   through the web portal.
 * A job can be run "headless" using the command line (not documented here).
-* Rosie can be used as a worker pool for [batch jobs](batch.md)
+* Rosie can be used as a worker pool for [batch jobs](matlab/batch.md)
   submitted from a desktop running MATLAB Parallel Toolbox
 
 For either of the first two, you must have a license for the

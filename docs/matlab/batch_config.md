@@ -1,7 +1,7 @@
 ## Configuring Matlab to Submit Batch Jobs to Rosie
 
 Rosie is currently running MatLab Parallel Server, version R2022a.
-While it is possible to [run Matlab desktop directly](./desktop), you
+While it is possible to [run Matlab desktop directly](matlab/desktop), you
 can also submit batch jobs from your desktop Matlab.  For this guide,
 I will assume you are running Matlab on your own computer on the MSOE
 network.
@@ -25,7 +25,7 @@ you must perform some one-time setup.
    If you didn't install Parallel Computing Toolbox in
    the previous step, you should install it now as an add-on, as well.
 
-1. Download the [cluster configuration file](./Rosie.mlsettings)
+1. Download the [cluster configuration file](matlab/Rosie.mlsettings)
 
 
 2. In the "Parallel" settings of Matlab, select "Create and Manage
@@ -50,4 +50,4 @@ you must perform some one-time setup.
       all further examples assume your configuration is named "Rosie"
 
 Once your MatLab desktop is configured correctly, you can use it to
-[submit batch jobs to Rosie](./batch).
+[submit batch jobs to Rosie](matlab/batch).
