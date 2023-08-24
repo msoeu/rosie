@@ -20,6 +20,12 @@ There are three methods to run a MATLAB desktop on Rosie:
 1. `matlab&`
    * If prompted to log in to a MathWorks account, enter your msoe.edu email address even if you don't have a Mathworks account. You'll be taken through MSOE SSO to confirm you're an authorized user.
    * If you ever receive a fatal error noting that license checkout failed, try `matlab -licmode onlinelicensing&`.
+1. The MATLAB GUI appears and you have access to:
+   * [Deep Learning Toolbox](https://www.mathworks.com/help/deeplearning/getting-started-with-deep-learning-toolbox.html)
+   * Signal Processing Toolbox
+   * Statistics and Machine Learning Toolbox
+   * Image Processing Toolbox
+   * and much more
 
 ### Alternate method (X11 forwarding)
 
