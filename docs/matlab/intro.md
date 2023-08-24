@@ -1,7 +1,7 @@
 ## MATLAB on Rosie, an Introduction
 
 MATLAB is a commonly used platform for numeric computing and simple
-programming. Currently, Rosie has MATLAB r2022a installed.  MATLAB
+programming. Currently, Rosie has MATLAB R2023a and some older versions installed.  MATLAB
 jobs can be run in different ways on the cluster.
 
 * A job can be run using the [MATLAB desktop](matlab/desktop.md), generally
@@ -14,7 +14,17 @@ For either of the first two, you must have a license for the
 particular node of the cluster that your job is running on.  Batch
 jobs do not require an individual license.
 
-### MATLAB Licensing
+### MATLAB Licensing starting with R2023a
+
+License checkout is simplified beginning with this version.
+
+When running MATLAB, if you ever receive a fatal error noting that license checkout failed, try `matlab -licmode onlinelicensing&` instead of just `matlab&`.
+
+The first time your run MATLAB, you should be prompted to sign in to your MathWorks account. Even if you don't have a MathWorks account, enter your msoe.edu email address and you will be taken through an MSOE SSO (single sign-on). After entering your MSOE credentials and completing 2FA (two-factor authentication) if required, you should see the MATLAB desktop.
+
+On subsequent runs of MATLAB, you should be taken directly to the MATLAB desktop. MATLAB remembers that you're a licensed use through the use of configuration files it stores in your home directory, which is shared across all nodes on Rosie.
+
+### MATLAB Licensing through R2022a
 
 MSOE has a university-wide license for MATLAB.  However, each MSOE
 user must obtain a separate license for each computer that they use to
@@ -33,7 +43,7 @@ installation, you must first download and install the license, then
 activate it. The MATLAB app in OpenOnDemand should run the activation
 script automatically if necessary.
 
-### Manual License File
+### Manual License File through R2022a
 
 Once you know which node you're on, you need to generate a MATLAB license file (unless you previously generated one for this particular node).
 
