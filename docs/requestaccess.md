@@ -8,6 +8,6 @@ Once your access is approved, any use of Rosie that doesn't align with MSOE's ac
 
 Please using the following web form to request a new account: https://forms.office.com/r/fypZ8658Sv
 
-If you already have an account (or had one previously), pleasse do not request a new account.  If your password is notworking, you can try connecting with ssh and changing your password.  If you do not remember your password, please contact rosiesupport@msoe.edu
+If you already have an account (or had one previously), please do not request a new account.  If your password is not working, you can try connecting with ssh and changing your password.  If you do not remember your password, please contact rosiesupport@msoe.edu
 
 If you have any questions, please feel free to reach out to riley@msoe.edu
