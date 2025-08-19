@@ -12,10 +12,17 @@ On **Linux**, a popular option is to use [openconnect](https://www.infradead.org
 
 Rosie is connected to your campus account.  The web portal should sign you in with single-signon. If you connect with ssh, you will need to enter your password.  Your account name ***must*** include `@ad.msoe.edu` (e.g. `username@ad.msoe.edu`).
 
-**Note: You must log in via shell before you can use the web portal.**
+**Note: You must log in via shell before you can use the web portal.**  If you log into the web portal first, you will likely see an error:
+
+![No home directory](_images/ood_no_home.png)
+
+If you get this error, first shell in with ssh, then restart the web server.
 
 While you can log in with your campus credentials, you will need access to SLURM in order to run jobs.  If you have enrolled in a CS course which uses Rosie, you likely already have a SLURM account.  If not, you can [submit the form](requestaccess.md).
 
+An error like the one below indicates that you do not have SLURM access.
+
+![No SLURM](_images/ood_new_acc3_slurm_error.png)
 
 ## Shell Access
 
