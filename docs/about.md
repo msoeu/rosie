@@ -1,6 +1,8 @@
 ## Rosie Overview
 
+<center>
 ![Rosie Diagram](_images/rosie-diagram.png)
+</center>
 
 Rosie is a *cluster* of 29 computers (called *nodes*) which are connected together by a high-speed private network.  Four of the nodes are *management* nodes, and are also accessible on the MSOE campus network. From these, we use SLURM to run *jobs* on the compute nodes of the cluster.  The compute nodes have GPUs and are intended for long-running computation-heavy tasks.  All nodes share a 300TB networked storage device.
 
