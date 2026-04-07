@@ -1,8 +1,8 @@
 ## Rosie Overview
 
-<center>
+<p style="text-align:center">
 ![Rosie Diagram](_images/rosie-diagram.png)
-</center>
+</p>
 
 Rosie is a *cluster* of 29 computers (called *nodes*) which are connected together by a high-speed private network.  Four of the nodes are *management* nodes, and are also accessible on the MSOE campus network. From these, we use SLURM to run *jobs* on the compute nodes of the cluster.  The compute nodes have GPUs and are intended for long-running computation-heavy tasks.  All nodes share a 300TB networked storage device.
 
@@ -49,8 +49,8 @@ A job scheduling system built to handle robust uses of compute clusters.
 
 More details in [Command Line Interface Guide Pages](cli/SLURM.md)
 
-* SLURM Documentation [link](https://slurm.schedmd.com/documentation.html)
-* SLURM `man` pages: 
+- SLURM Documentation [link](https://slurm.schedmd.com/documentation.html)
+- SLURM `man` pages: 
 
   ```bash
   $ man srun
@@ -61,8 +61,8 @@ More details in [Command Line Interface Guide Pages](cli/SLURM.md)
 
 A container runtime commonly used in HPC applications.  Many commonly-used ilbraries are available as Singularity containers.
 
-* Singularity Documentation [link](https://sylabs.io/guides/3.10/user-guide/index.html)
-* Singularity help in the terminal:
+- Singularity Documentation [link](https://sylabs.io/guides/3.10/user-guide/index.html)
+- Singularity help in the terminal:
 
   ```bash
     $ singularity --help
