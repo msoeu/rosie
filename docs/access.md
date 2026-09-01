@@ -16,7 +16,7 @@ Rosie is connected to your campus account.  The web portal should sign you in wi
 
 ![No home directory](_images/ood_no_home.png)
 
-If you get this error, first shell in with ssh, then restart the web server.
+If you get this error, click the first link to shell in using your MSOE password, then click the second link to restart the web server.
 
 While you can log in with your campus credentials, you will need access to SLURM in order to run jobs.  If you have enrolled in a CS course which uses Rosie, you likely already have a SLURM account.  If not, you can [submit the form](requestaccess.md).
 
